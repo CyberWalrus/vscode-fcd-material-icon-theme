@@ -19,14 +19,7 @@ export const folderIcons: FolderTheme[] = [
       },
       {
         name: 'folder-dist',
-        folderNames: [
-          'dist',
-          'out',
-          'build',
-          'release',
-          'bin',
-          'dist-test-server',
-        ],
+        folderNames: ['dist', 'out', 'build', 'release', 'bin'],
       },
       {
         name: 'folder-dist-2',
@@ -68,8 +61,6 @@ export const folderIcons: FolderTheme[] = [
           'photos',
           'photograph',
           'photographs',
-          '__screenshots-current__',
-          '__screenshots-dif__',
           '__screenshots-reference__',
         ],
       },
@@ -716,7 +707,6 @@ export const folderIcons: FolderTheme[] = [
           '_drafts',
           'mock',
           'mocks',
-          '__mocks__',
           'fixture',
           'fixtures',
           'draft',
