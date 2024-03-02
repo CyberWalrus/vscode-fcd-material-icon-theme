@@ -7,4 +7,4 @@
   <br>
 </h1>
 
-## Based on [Material Icon Theme v 4.34.0](https://github.com/PKief/vscode-material-icon-theme/blob/v4.34.0/README.md)
+<h4 align="center">Based on <a src="https://github.com/PKief/vscode-material-icon-theme/blob/v4.34.0/README.md">Material Icon Theme v 4.34.0</a></h4>
