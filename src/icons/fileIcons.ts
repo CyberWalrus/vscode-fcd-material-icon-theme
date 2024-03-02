@@ -18,7 +18,14 @@ export const fileIcons: FileIcons = {
     },
     { name: 'blink', fileExtensions: ['blink'], light: true },
     { name: 'css', fileExtensions: ['css'] },
-    { name: 'sass', fileExtensions: ['scss', 'sass'] },
+    {
+      name: 'sass',
+      fileExtensions: ['scss', 'sass'],
+      fileNames: [
+        'typed-scss-modules.config.js',
+        'typed-scss-modules.config.cjs',
+      ],
+    },
     { name: 'less', fileExtensions: ['less'] },
     {
       name: 'json',

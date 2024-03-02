@@ -19,7 +19,18 @@ export const folderIcons: FolderTheme[] = [
       },
       {
         name: 'folder-dist',
-        folderNames: ['dist', 'out', 'build', 'release', 'bin'],
+        folderNames: [
+          'dist',
+          'out',
+          'build',
+          'release',
+          'bin',
+          'dist-test-server',
+        ],
+      },
+      {
+        name: 'folder-dist-2',
+        folderNames: ['dist-test-server'],
       },
       {
         name: 'folder-css',
@@ -57,7 +68,18 @@ export const folderIcons: FolderTheme[] = [
           'photos',
           'photograph',
           'photographs',
+          '__screenshots-current__',
+          '__screenshots-dif__',
+          '__screenshots-reference__',
         ],
+      },
+      {
+        name: 'folder-images-2',
+        folderNames: ['__screenshots-dif__'],
+      },
+      {
+        name: 'folder-images-3',
+        folderNames: ['__screenshots-current__'],
       },
       {
         name: 'folder-scripts',
@@ -78,6 +100,7 @@ export const folderIcons: FolderTheme[] = [
           'tests',
           'testing',
           '__tests__',
+          '__e2e__',
           '__snapshots__',
           '__mocks__',
           '__fixtures__',
@@ -225,6 +248,7 @@ export const folderIcons: FolderTheme[] = [
           'colors',
           'design',
           'designs',
+          'ui',
         ],
       },
       { name: 'folder-webpack', folderNames: ['webpack', '.webpack'] },
@@ -286,7 +310,6 @@ export const folderIcons: FolderTheme[] = [
       {
         name: 'folder-ngrx-entities',
         folderNames: ['entities'],
-        enabledFor: [IconPack.Ngrx],
       },
       {
         name: 'folder-ngrx-selectors',
@@ -406,7 +429,14 @@ export const folderIcons: FolderTheme[] = [
       { name: 'folder-lua', folderNames: ['lua'] },
       {
         name: 'folder-typescript',
-        folderNames: ['typescript', 'ts', 'typings', '@types', 'types'],
+        folderNames: [
+          'typescript',
+          'ts',
+          'typings',
+          '@types',
+          'types',
+          '__generated__',
+        ],
       },
       { name: 'folder-graphql', folderNames: ['graphql', 'gql'] },
       { name: 'folder-routes', folderNames: ['routes', 'router', 'routers'] },
@@ -686,6 +716,7 @@ export const folderIcons: FolderTheme[] = [
           '_drafts',
           'mock',
           'mocks',
+          '__mocks__',
           'fixture',
           'fixtures',
           'draft',
@@ -702,7 +733,7 @@ export const folderIcons: FolderTheme[] = [
       },
       { name: 'folder-vm', folderNames: ['vm', 'vms'] },
       { name: 'folder-stylus', folderNames: ['stylus'] },
-      { name: 'folder-flow', folderNames: ['flow-typed'] },
+      { name: 'folder-flow', folderNames: ['flow-typed', 'features'] },
       {
         name: 'folder-rules',
         folderNames: [

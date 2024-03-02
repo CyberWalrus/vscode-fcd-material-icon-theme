@@ -31,7 +31,7 @@ const fetchContributors = (
   return new Promise((resolve, reject) => {
     const config: AxiosRequestConfig = {
       method: 'get',
-      url: `https://api.github.com/repos/pkief/vscode-material-icon-theme/contributors`,
+      url: `https://api.github.com/repos/CyberWalrus/vscode-fcd-material-icon-theme/contributors`,
       params: { page },
       headers: {
         accept: 'application/json',
