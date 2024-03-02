@@ -1,8 +1,8 @@
 {
-  "name": "material-icon-theme",
-  "displayName": "Material Icon Theme",
-  "description": "Material Design Icons for Visual Studio Code",
-  "version": "4.34.0",
+  "name": "fcd-material-icon-theme",
+  "displayName": "FCD Material Icon Theme",
+  "description": "FCD Material Design Icons for Visual Studio Code",
+  "version": "1.0.0",
   "scripts": {
     "build": "npm run compile:dev && npm run generateJson",
     "check": "ts-node ./src/scripts/icons/checks",
@@ -25,26 +25,22 @@
     "version": "npm run changelog && git add CHANGELOG.md",
     "vscode:prepublish": "npm run lint && npm run compile && npm run package-web"
   },
-  "publisher": "PKief",
+  "publisher": "CyberWalrus",
   "author": {
-    "name": "Philipp Kief",
-    "email": "philipp.kief@gmx.de",
-    "url": "https://pkief.github.io"
-  },
-  "funding": "https://github.com/sponsors/PKief",
-  "sponsor": {
-    "url": "https://github.com/sponsors/PKief"
+    "name": "Andrey Pakhomov",
+    "email": "stonewalrusfan@gmil.com",
+    "url": "https://github.com/CyberWalrus"
   },
   "engines": {
     "vscode": "^1.51.0"
   },
-  "homepage": "https://github.com/PKief/vscode-material-icon-theme/blob/main/README.md",
+  "homepage": "https://github.com/CyberWalrus/vscode-fcd-material-icon-theme/blob/main/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PKief/vscode-material-icon-theme.git"
+    "url": "https://github.com/CyberWalrus/vscode-fcd-material-icon-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/PKief/vscode-material-icon-theme/issues"
+    "url": "https://github.com/CyberWalrus/vscode-fcd-material-icon-theme/issues"
   },
   "icon": "logo.png",
   "galleryBanner": {
